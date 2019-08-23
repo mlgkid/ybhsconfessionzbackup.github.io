@@ -1,3 +1,7 @@
+<?php
+	date_default_timezone_set('America/Los_Angeles');
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -23,6 +27,14 @@
 		original? DONT WORRY!! This is ran 
 		by bots. SO THIS WILL NEVER DIE
 	</p>
+<?php
+
+echo "<form>
+		<input type='hidden' name='date' value='".date('Y-m-d H:i:s')."'>
+	<textarea name='message'></textarea>
+	<button type='submit' name='submit'>Comment</button>
+</form>
+
 	<img src="confessions.png">
 </body>
 </html>

@@ -3,3 +3,21 @@ body{
 	padding: 0;
 	background: url(confessions.png);
 }
+
+textarea {
+	width: 850px;
+	height: 80px;
+	background-color: #fff;
+	resize: none;
+}
+
+button {
+	width: 100px;
+	height: 30px;
+	background-color: #282828;
+	border: none;
+	color: #fff;
+	font-family: arial;
+	font-weight: 400;
+	cursor: pointer;
+}
